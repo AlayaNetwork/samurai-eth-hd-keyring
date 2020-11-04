@@ -1,6 +1,6 @@
 const assert = require('assert')
-const sigUtil = require('eth-sig-util')
-const ethUtil = require('ethereumjs-util')
+const sigUtil = require('@alayanetwork/eth-sig-util')
+const ethUtil = require('@alayanetwork/ethereumjs-util')
 const HdKeyring = require('..')
 
 // Sample account:
